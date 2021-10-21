@@ -18,15 +18,31 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Astra Porta
+title: Abla blog
 email: slim@astraporta.com
 description: >- # this means to ignore newlines until "baseurl:"
- Vous souhaitez proposer une solution de mesure d'audience innovante à vos clients ? N'hésitez pas à nous contacter, nous vous présenterons notre programme partenariat..
+ L'actualité de lapplication ABLA 
 baseurl: "/blog.abla3" # the subpath of your site, e.g. /blog
 url: "https://meziane1981.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: meziane_maamar
 github_username:  meziane1981
+
+
+# Fields minima uses, but are not defaulted with the jekyll new command.
+# Author is the default for posts, the atom feed, and is used in the footer.
+author: Astra Porta
 linkedin_username: maamar-meziane
+
+# New fields not defaulted by jekyll-new with minima theme
+# Add a copyright. A copyright symbol and year will be added automatically
+# copyright: Company Name, Inc.
+copyright: "Astra Porta LLC"
+
+# title-logo is a new field that, when used, dispays a logo
+# instead of custom text. Ideally, image is 50px hihg and takes up 
+# minimal horizontal space. Tested with a new root "images" folder e.g.:
+# title-logo: /images/my-logo.svg
+title-logo: images/title-logo.png  
 
 # Build settings
 # Removed minima theme as it is now a regular theme.
