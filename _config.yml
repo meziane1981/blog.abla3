@@ -42,7 +42,7 @@ copyright: "Astra Porta LLC"
 # instead of custom text. Ideally, image is 50px hihg and takes up 
 # minimal horizontal space. Tested with a new root "images" folder e.g.:
 # title-logo: /images/my-logo.svg
-title-logo: images/title-logo.png  
+title-logo: ./images/title-logo.png  
 
 # Build settings
 # Removed minima theme as it is now a regular theme.
